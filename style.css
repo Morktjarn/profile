@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #2e2e34;
+  font-family: 'Open Sans', sans-serif;
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  color: #666866;
+  font-size: 15px;
+  line-height: 10px;
+  font-weight: 100;
+  text-align: center;
+  background-image: url("https://www.thoughtco.com/thmb/pNr1IIDYAuVP8IPDW72NI3lWPzg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/close-up-of-flame-536940503-59b2b3de845b3400107a7f27-5b967c9546e0fb00254ed63b.jpg");
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.card-black {
+  background: #13131B;
+  padding: 20px;
+  border: 1px solid #666866;
+  margin: 10px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px #E2254F;
+}
+
+#card-links {
+  width: 300px;
+  height: 100px;
+  display: inline-block;
+}
+
+#card-principale {
+  padding: 40px;
+  margin: 2px;
+}
+
+.list-inline {
+display: flex;
+justify-content: space-around;
+list-style: none;
+padding: 0px;
+}
+
+/* .list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+} */
+
+.icone-round {
+  border-radius: 50%;
+  border: solid 2px #E2254F;
+  padding: 5px;
+}
+
+#link {
+  font-size: 20px;
+  color: #E2254F;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.img-shadowed {
+  box-shadow: 5px, 5px, 3px #2e3139;
+}
+
+h1, h2 {
+  /* background-color: #666866; */
+  font-family: Roboto;
+  /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  color: #E2254F;
+  font-size: 17px;
+  line-height: 10px;
+  padding-block: 20px;
+}
+
+i {
+  color: #E2254F;
+  text-decoration: none;
+  background-color: #13131B;
+  text-decoration: none;
+  padding: 3px;
+  border-color: #E2254F ;
+}
+
+i:hover {
+  color: #E2254F;
+  font-size: 20px;
+}
+
+#btn-playlist {
+  background-color: #E2254F;
+  color: #13131B;
+  border: 0;
+  border-radius: 15px;
+  padding: 5px;
+  text-decoration: none;
+}
